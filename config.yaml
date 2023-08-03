@@ -80,7 +80,7 @@ params:
   image: "images/banner.jpg"
 
   # customize color
-  primary_color: "#1CABE2"
+  primary_color: "#212124"
   primary_color_light: "#1b66b1"
   body_color: "#f2f4f6"
   text_color: "#636363"
@@ -165,27 +165,20 @@ Languages:
           weight: 20
           url: contact
 
-        - name: pages
+        - name: subjects
           weight: 50
-          url: pages
+          url: subjects
           hasChildren: true
         # Sub-pages in this drop-down should correspond to categories created in /content/
-        - name: About
-          parent: pages
+        - name: Msc. CS
+          parent: subjects
           weight: 10
-          url: about
-        - name: 2. Features
-          parent: pages
+          url: subjects/msc-cs/
+        - name: B.Tech
+          parent: subjects
           weight: 20
-          url: features
-        - name: 3. Installation
-          parent: pages
-          weight: 30
-          url: install
-        - name: 4. Contributing
-          parent: pages
-          weight: 50
-          url: contributing
+          url: subjects        
+
 
 ############################# español / Spanish #############################
   # es:
