@@ -165,19 +165,23 @@ Languages:
           weight: 20
           url: contact
 
-        - name: subjects
+        - name: courses
           weight: 50
-          url: subjects
+          url: courses
           hasChildren: true
         # Sub-pages in this drop-down should correspond to categories created in /content/
         - name: Msc. CS
-          parent: subjects
+          parent: courses
           weight: 10
-          url: subjects/msc-cs/
-        - name: B.Tech
-          parent: subjects
+          url: courses/msc-cs/
+        - name: Msc. DFIS
+          parent: courses
           weight: 20
-          url: subjects        
+          url: courses/msc-dfis/
+        - name: B.Tech
+          parent: courses
+          weight: 20
+          url: courses        
 
 
 ############################# español / Spanish #############################
